@@ -152,8 +152,8 @@ minetest.register_craft({
 	output = 'evenmoreblocks:desert_runestone 4',
 	recipe = {
 		{'default:desert_stone', 'default:desert_stone', 'default:desert_stone'},
-		{ 'default:desertstone','', 'default:desert_stone'},
-		{'default:desert-stone', 'default:desert_stone', 'default:desert_stone'},
+		{ 'default:desert_stone','', 'default:desert_stone'},
+		{'default:desert_stone', 'default:desert_stone', 'default:desert_stone'},
 	}
 })
 minetest.register_node("evenmoreblocks:obsidian_runestone", {

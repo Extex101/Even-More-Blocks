@@ -137,9 +137,9 @@ minetest.register_node("evenmoreblocks:desert_stone_pillar", {
 minetest.register_craft({
 	output = 'evenmoreblocks:desert_stone_pillar 3',
 	recipe = {
-		{'default:desertstone'},
-		{'default:desertstone'},
-		{'default:desertstone'},
+		{'default:desert_stone'},
+		{'default:desert_stone'},
+		{'default:desert_stone'},
 	}
 })
 minetest.register_node("evenmoreblocks:jungle_wood_tile", {
@@ -148,7 +148,7 @@ minetest.register_node("evenmoreblocks:jungle_wood_tile", {
     groups = {choppy = 2,level = 2},
 })
 minetest.register_craft({
-	output = 'evenmoreblocks:jungle_wood_tile 2',
+	output = 'evenmoreblocks:jungle_wood_tile 5',
 	recipe = {
 		{'', 'default:wood', ''},
 		{ 'default:wood','default:junglewood', 'default:wood'},
@@ -161,7 +161,7 @@ minetest.register_node("evenmoreblocks:desert_runestone", {
     groups = {cracky = 2},
 })
 minetest.register_craft({
-	output = 'evenmoreblocks:desert_runestone 4',
+	output = 'evenmoreblocks:desert_runestone 8',
 	recipe = {
 		{'default:desert_stone', 'default:desert_stone', 'default:desert_stone'},
 		{ 'default:desert_stone','', 'default:desert_stone'},

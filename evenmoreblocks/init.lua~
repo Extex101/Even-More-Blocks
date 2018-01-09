@@ -6,7 +6,7 @@ minetest.register_node("evenmoreblocks:pure_stone", {
 minetest.register_craft({
     type = "cooking",
     output = "evenmoreblocks:pure_stone",
-    recipe = "default:pure_stone_brick",
+    recipe = "default:stone",
     cooktime = 20,
 })
 minetest.register_node("evenmoreblocks:pure_stone_brick", {

@@ -2,6 +2,7 @@ minetest.register_node("evenmoreblocks:pure_stone", {
     description = "Purified Stone",
     tiles = {"pure_stone.png"},
     groups = {cracky = 2},
+    drop = 'default:stone',
 })
 minetest.register_craft({
     type = "cooking",

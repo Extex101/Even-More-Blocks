@@ -1,13 +1,24 @@
-minetest.register_node("evenmoreblocks:stacked_tile", {
-    description = "Stacked Stone Tile",
-    tiles = {"stacked_tile.png"},
+minetest.register_node("evenmoreblocks:pure_stone", {
+    description = "Purified Stone",
+    tiles = {"pure_stone.png"},
     groups = {cracky = 2},
 })
 minetest.register_craft({
-	output = 'evenmoreblocks:stacked_tile 4',
+    type = "cooking",
+    output = "evenmoreblocks:pure_stone",
+    recipe = "default:pure_stone_brick",
+    cooktime = 20,
+})
+minetest.register_node("evenmoreblocks:pure_stone_brick", {
+    description = "Purified Stone Brick",
+    tiles = {"pure_stone_brick.png"},
+    groups = {cracky = 2},
+})
+minetest.register_craft({
+	output = 'evenmoreblocks:pure_stone_brick 4',
 	recipe = {
-		{'xdecor:stone_tile', 'xdecor:stone_tile'},
-		{'xdecor:stone_tile', 'xdecor:stone_tile'},
+		{'evenmoreblocks:pure_stone', 'evenmoreblocks:pure_stone'},
+		{'evenmoreblocks:pure_stone', 'evenmoreblocks:pure_stone'},
 	}
 })
 minetest.register_node("evenmoreblocks:packed_ice_brick", {
